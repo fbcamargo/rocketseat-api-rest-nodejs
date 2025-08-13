@@ -1,5 +1,6 @@
 import type { FastifyReply, FastifyRequest } from 'fastify'
 
+// eslint-disable-next-line require-await
 export async function checkSessionIdExists(
   request: FastifyRequest,
   reply: FastifyReply,
